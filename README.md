@@ -21,6 +21,11 @@ Automatic oligonucleotide design for PCR-based gene synthesis
    15;30(10):e43. PubMed PMID: 12000848; PubMed Central PMCID: PMC115297.
  
  Kindly reference this publication if you use this for your work.
+
+
+Python Wrapper
+==============
+Author: Zheng Liangzhen 
  
 
 Installation
