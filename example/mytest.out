@@ -1,0 +1,784 @@
+--------------------------------------------------------------------------------
+|               HPC @ NIH -- Center for Information Technology                 |
+|                             https://hpc.nih.gov                              |
+|   National Institutes of Health, Department of Health and Human Services     |
+|                                                                              |
+|         DNAWorks Web Site: https://hpcwebapps.cit.nih.gov/dnaworks           |
+--------------------------------------------------------------------------------
+|                                                                              |
+|               Send all correspondence to webtools@hpc.nih.gov                |
+--------------------------------------------------------------------------------
+
+ Job started on 09/19/2022 at 11:39:30
+
+ Job name: todaytest                                                            
+ 
+      SEQUENCE  1: DNA     LENGTH =  938                               
+ ----------------------------------------------------------------
+   1 TGACCACCCGCCTCGAGAACTCCCTCCGCCGCGACGTCTCCGAGGGCCTCCGCCGCTCCC
+  61 CCAAGTCCCTCCCCCCCAAGTGGTTCTACGACTCCGTCGGCTCCGACCTCTTCGACCAGA
+ 121 TCACCCGCCTCCCCGAGTACTACCCCACCCGCACCGAGGCCAAGATCCTCGGCGCCCACG
+ 181 CCGCCGACATCGCCGAGGTCTCCGGCGCCGACACCCTCGTCGAGCTCGGCTCCGGCACCT
+ 241 CCGAGAAGACCCGCCTCCTCCTCGACGCCTTCCGCGCCTGCGGCACCCTCCACCGCTTCA
+ 301 TCCCCTTCGACGTCGACCCCTCCGTCCTCGGCGCCGCCGCCGCCGCCCTCCACACCGAGT
+ 361 ACCCCGACCTCGACATCGACACCGTCTGCGGCGACTTCGAGCAGGACCTCCCCACCATCC
+ 421 CCAAGATCGGCCGCCGCATGGTCGTCTTCCTCGGCTCCACCATCGGCAACCTCACCGCCG
+ 481 GCCCCCGCGCCGACTTCCTCGCCGCCGTCGCCGACGCCATGCAGCCCGGCGACTCCCTCC
+ 541 TCCTCGGCACCGACCTCGTCAAGGACGTCGACCGCCTCGTCCGCGCCTACGACGACGCCG
+ 601 CCGGCGTCACCGCCGCCTTCAACCGCAACGTCCTCGCCGTCGTCAACCGCGAGCTCGGCG
+ 661 CCGACTTCGACCCCTCCGCCTTCGCCCACATCGCCAAGTGGAACGACACCGAGGAGCGCA
+ 721 TCGAGATGTGGCTCCGCTCCACCCTCGCCCAGCGCGTCCACGTCTCCGAGCTCGACCTCA
+ 781 CCGTCGACTTCGAGGCCGGCGAGGAGATGCTCACCGAGGTCTCCTGCAAGTTCCGCCCCG
+ 841 CCGGCATCGCCGACGAGCTCGCCGCCGCCGGCCTCACCCGCACCCACTGGTGGACCGACC
+ 901 CCGCCGGCGACTTCGGCGTCTCCCTCGCCGTCAAGTAG
+ ----------------------------------------------------------------
+ 
+                SEQUENCE PATTERNS TO BE SCREENED
+ ----------------------------------------------------------------
+ ----------------------------------------------------------------
+ 
+ ----------------------------------------------------------------
+                    PARAMETERS FOR TRIAL 1                             
+ ----------------------------------------------------------------
+               Total Size Of Gene ......... 938 nt                        
+               Protein Residues ........... 0                             
+               Mutatable Residues ......... 0                             
+               Fixed Nucleotides .......... 938 nt                        
+               Degenerate Nucleotides ..... 0 nt                          
+               Oligo Size ................. 60 nt                         
+               Annealing Temp ............. 65 +/- 1*C                    
+               Oligo Concentration ........ 2.00E-7 M                     
+               Sodium Concentration ....... 5.00E-2 M                     
+               Mg2+ Concentration ......... 2.00E-3 M                     
+               Codon Frequency Threshold .. 50%                           
+               Repeat Threshold ........... 8 nt                          
+               Mispriming Threshold ....... 8/18 (6 exact) nt             
+               AT Score Weight ............ 0.00E+0                       
+               Codon Score Weight ......... 0.00E+0                       
+               GC Score Weight ............ 0.00E+0                       
+               Pattern Score Weight ....... 0.00E+0                       
+               Repeat Score Weight ........ 0.00E+0                       
+ 
+--------------------------------------------------------------------------------
+ 
+ The DNA sequence #   1 is:
+ ----------------------------------------------------------------
+   1 TGACCACCCGCCTCGAGAACTCCCTCCGCCGCGACGTCTCCGAGGGCCTCCGCCGCTCCC
+  61 CCAAGTCCCTCCCCCCCAAGTGGTTCTACGACTCCGTCGGCTCCGACCTCTTCGACCAGA
+ 121 TCACCCGCCTCCCCGAGTACTACCCCACCCGCACCGAGGCCAAGATCCTCGGCGCCCACG
+ 181 CCGCCGACATCGCCGAGGTCTCCGGCGCCGACACCCTCGTCGAGCTCGGCTCCGGCACCT
+ 241 CCGAGAAGACCCGCCTCCTCCTCGACGCCTTCCGCGCCTGCGGCACCCTCCACCGCTTCA
+ 301 TCCCCTTCGACGTCGACCCCTCCGTCCTCGGCGCCGCCGCCGCCGCCCTCCACACCGAGT
+ 361 ACCCCGACCTCGACATCGACACCGTCTGCGGCGACTTCGAGCAGGACCTCCCCACCATCC
+ 421 CCAAGATCGGCCGCCGCATGGTCGTCTTCCTCGGCTCCACCATCGGCAACCTCACCGCCG
+ 481 GCCCCCGCGCCGACTTCCTCGCCGCCGTCGCCGACGCCATGCAGCCCGGCGACTCCCTCC
+ 541 TCCTCGGCACCGACCTCGTCAAGGACGTCGACCGCCTCGTCCGCGCCTACGACGACGCCG
+ 601 CCGGCGTCACCGCCGCCTTCAACCGCAACGTCCTCGCCGTCGTCAACCGCGAGCTCGGCG
+ 661 CCGACTTCGACCCCTCCGCCTTCGCCCACATCGCCAAGTGGAACGACACCGAGGAGCGCA
+ 721 TCGAGATGTGGCTCCGCTCCACCCTCGCCCAGCGCGTCCACGTCTCCGAGCTCGACCTCA
+ 781 CCGTCGACTTCGAGGCCGGCGAGGAGATGCTCACCGAGGTCTCCTGCAAGTTCCGCCCCG
+ 841 CCGGCATCGCCGACGAGCTCGCCGCCGCCGGCCTCACCCGCACCCACTGGTGGACCGACC
+ 901 CCGCCGGCGACTTCGGCGTCTCCCTCGCCGTCAAGTAG
+ ----------------------------------------------------------------
+ 
+ The oligonucleotide assembly is:
+ ----------------------------------------------------------------
+     1       10        20        30        40        50        60
+     |        |         |         |         |         |         |
+ 
+     1 --->                                                      
+   1 TGACCACCCGCCTCGAGAACTCCCTCCGCCGCGACGTCTCCG                  
+        ************   ************** ***********  ********** *** < repeat
+                 ******************************                   < misprime
+                              ********                            < GC rich
+                                CGGCGCTGCAGAGGCTCCCGGAGGCGGCGAGGG
+                                                                 
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+              3 --->                                             
+  61          tcccccccaagtggttctacgactccgtcggctccgacctcttcgaccaga
+     ******      ***********             *********************    < repeat
+                                                 **************** < misprime
+     GGTTCAGGGAGGGGGGGTTCACCAAGA                         gctggtct
+                         <---  2                                 
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                       5 --->                    
+ 121 tcacccgcc                         CGAGGCCAAGATCCTCGGCGCCCACG
+     ********************    ******************************** *** < repeat
+     *********                                                    < misprime
+                                                      ******** ** < GC rich
+     agtgggcggaggggctcatgatggggtgggcgtggctccggttctaggagcc        
+                                                  <---  4        
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                                                 
+ 181 CCGCCGACATCGCCGAGGTCTCCGGCGCCGACAC                          
+     ******************************************************       < repeat
+       ********************************************************** < misprime
+     ******               *********                               < GC rich
+                        GAGGCCGCGGCTGTGGGAGCAGCTCGAGCCGAGGCCGTGGA
+                                                                 
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+      7 --->                                                     
+ 241  cgagaagacccgcctcctcctcgacgccttccgcgcctgcggcaccctccaccgcttca
+             ****************      *********      ********        < repeat
+     ***************          *********************************** < misprime
+     GGCTCTTCTGGGCGGAGGA                        gtgggaggtggcgaagt
+                 <---  6                                         
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                    9 --->                       
+ 301 t                              CGCCGCCGCCGCCGCCCTCCACACCGAGT
+           ****************************************************** < repeat
+     *                                                            < misprime
+                                 ********************             < GC rich
+     aggggaagctgcagctggggaggcaggagccgcggcggcggcg                 
+                                         <---  8                 
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                                            11 --
+ 361 ACCCCGACCTCGACATCGACACCGTCTGCGG                        catcc
+     ** *********************    *************          ********  < repeat
+         ***************************                    ********* < misprime
+                  GTAGCTGTGGCAGACGCCGCTGAAGCTCGTCCTGGAGGGGTGGTAGG
+                                                                 
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+     ->                                                          
+ 421 ccaagatcggccgccgcatggtcgtcttcctcggctccaccatcggcaacctcac     
+     ******** ********        *******************    ************ < repeat
+     *********                           ************************ < misprime
+            **********                                     ****** < GC rich
+     GGTTCTAGCCGGC                       ggtggtagccgttggagtggcggc
+           <--- 10                                               
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                           13 --->                               
+ 481                       CGCCGTCGCCGACGCCATGCAGCCCGGCGACTCCCTCC
+     ***   ******************************         *************** < repeat
+     *                     ******************                     < misprime
+     ************       ********                ********          < GC rich
+     cgggggcgcggctgaaggagcggcggcagcggctgc                        
+                                  <--- 12                        
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                                       15 --->   
+ 541 TCCTCGGCACCGACCTCGTCAA                            gacgacgccg
+     ******** *********     *************************      ****** < repeat
+         *************************                 ************** < misprime
+                                                            ***** < GC rich
+         GCCGTGGCTGGAGCAGTTCCTGCAGCTGGCGGAGCAGGCGCGGATGCTGCTGCGGC
+                                                              <--
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                                                 
+ 601 ccggcgtcaccgccgccttcaaccgcaacgtcctcgccgtcgtcaaccgc          
+     **************************  ******************************** < repeat
+     ****    ******************  ************************         < misprime
+     ******   ********                                      ***** < GC rich
+     GGCC                              gcggcagcagttggcgctcgagccgc
+     - 14                                                        
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                       17 --->                                   
+ 661                   CCTTCGCCCACATCGCCAAGTGGAACGACACCGAGGAGCGCA
+     ***********************    **************  *************     < repeat
+     ***                                                          < GC rich
+     ggctgaagctggggaggcggaagcgggtgtagcg                          
+                                <--- 16                          
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                              19 --->            
+ 721 TCGAGATGTGGCTCCGCT                       gtctccgagctcgacctca
+                    **************          ********************* < repeat
+     ****************** ***************************************** < misprime
+     AGCTCTACACCGAGGCGAGGTGGGAGCGGGTCGCGCAGGTGCAGAGGCTCGAGCTGGAGT
+                                                          <--- 18
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                                                 
+ 781 ccgtcgacttcgaggccggcgaggagatgctcaccgaggtc                   
+     *** *********************      *************           ***** < repeat
+     ***********            ******************     ************** < misprime
+                  ********                               ******** < GC rich
+                           cctctacgagtggctccagaggacgttcaaggcggggc
+                                                                 
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+            21 --->                                              
+ 841        CGCCGACGAGCTCGCCGCCGCCGGCCTCACCCGCACCCACTGGTGGACCGACC
+     ********************************************              ** < repeat
+     ****         ************************            *********** < misprime
+     *****              **************                         ** < GC rich
+     ggccgtagcggctgctcgagcg                               TGGCTGG
+                    <--- 20                                      
+                                                                 
+ 
+     |        |         |         |         |         |         |
+ 
+                                           
+ 901 CCGCCGG                               
+     ***************      ***********       < repeat
+     **********************************     < misprime
+     *********                              < GC rich
+     GGCGGCCGCTGAAGCCGCAGAGGGAGCGGCAGTTCATC
+                                    <--- 22
+                                           
+ ----------------------------------------------------------------
+ 
+ The total codon usage score ...........     0.000
+ The total length score ................     0.000
+ The total melting temperature score ...     0.018
+ The total repeat score ................    55.650
+ The total pattern score ...............     0.000
+ The total mispriming score ............    20.725
+ The total AT content score ............     0.000
+ The total GC content score ............     9.893
+ The total fixed gap score .............      N/A
+                The OVERALL score ......    86.287
+ 
+ 
+                  Tm Range    # of Overlaps 
+             -------------------------------------
+                   <62            0
+                    62            1
+                    63            3
+                    64            9
+                    65            6
+                    66            1
+                    67            1
+                    68            0
+                    69            0
+                  >=70            0
+             -------------------------------------
+              Tm Range =  4.9
+ 
+              Ovrlap Len Range  # of Oligos
+             -------------------------------------
+                   <13            1
+                    13            0
+                    14            3
+                    15            3
+                    16            2
+                    17            1
+                    18            8
+                    19            3
+                    20            0
+                    21            0
+                    22            0
+                  >=23            0
+             -------------------------------------
+              Lowest Overlap = 12
+ 
+              Length Range   # of Oligos
+             -------------------------------------
+                   < 50            2
+                   50- 51           0
+                   52- 53           0
+                   54- 55           0
+                   56- 57           0
+                   58- 59           0
+                   60- 61          20
+                   62- 63           0
+                   64- 65           0
+                   66- 67           0
+                   68- 69           0
+                   >= 70           0
+             -------------------------------------
+              Longest =  60
+ 
+  There are  27 potential misprimings with <=  8 non-identical nts:
+ ----------------------------------------------------------------
+  Oligo Type 5'-start     Sequence     3'-start  Identical            
+ ----------------------------------------------------------------
+    18   DA    738  AGCGGAGCCACATCTCGA   721      13/18
+                     ||||||  |  ||||||
+                30  gGCGGAGggAgtTCTCGA    13
+
+     1   DS     25  TCCGCCGCGACGTCTCCG    42      12/18
+                     |  |  ||| |||||||
+               187  aCatCgcCGAgGTCTCCG   204
+
+     1   DS     25  TCCGCCGCGACGTCTCCG    42      13/18
+                      |||  | |||||||||
+               751  agCGCgtCcACGTCTCCG   768
+
+    19   IS    804  GAGATGCTCACCGAGGTC   821      12/18
+                    ||  || ||   ||||||
+               122  GAtcTGgTCgaaGAGGTC   105
+
+     3   DS    112  TCGACCAGATCACCCGCC   129      12/18
+                     |  | |||  |||||||
+               238  cCtcCgAGAagACCCGCC   255
+
+    19   DS    804  GAGATGCTCACCGAGGTC   821      11/18
+                    |      || ||||||||
+               183  GccgacaTCgCCGAGGTC   200
+
+     5   DS    197  GGTCTCCGGCGCCGACAC   214      11/18
+                     | |  || |  ||||||
+               365  cGaCctCGaCatCGACAC   382
+
+     6   DA    217  AGGGTGTCGGCGCCGGAG   200      10/18
+                         |  || |||||||
+               247  ttctcGgaGGtGCCGGAG   230
+
+     8   DA    301  ATGAAGCGGTGGAGGGTG   284      10/18
+                      ||    |  |||||||
+               229  ccGAgctcGacGAGGGTG   212
+
+     9   DS    374  CATCGACACCGTCTGCGG   391      11/18
+                    |  |  |  || ||||||
+               266  CgcCttCcgCGcCTGCGG   283
+
+    14   DA    562  TTGACGAGGTCGGTGCCG   545      11/18
+                      |  | ||  |||||||
+               298  aaGcgGtGGagGGTGCCG   281
+
+     8   DA    301  ATGAAGCGGTGGAGGGTG   284      11/18
+                    | |    ||  |||||||
+               757  AcGcgctGGgcGAGGGTG   740
+
+    12   DA    474  TGAGGTTGCCGATGGTGG   457      13/18
+                     ||  |||  ||||||||
+               429  cGAtcTTGggGATGGTGG   412
+
+    11   DS    458  CACCATCGGCAACCTCAC   475      11/18
+                    | ||     | |||||||
+               764  CtCCgagctCgACCTCAC   781
+
+    11   DS    458  CACCATCGGCAACCTCAC   475      12/18
+                    | ||  || |  ||||||
+               860  CgCCgcCGcCggCCTCAC   877
+
+    21   DS    890  GTGGACCGACCCCGCCGG   907      11/18
+                      | | |  | |||||||
+               464  cgGcAaCctCaCCGCCGG   481
+
+    16   DA    652  TCGCGGTTGACGACGGCG   635      12/18
+                      |  || | ||||||||
+               520  atGgcGTcGgCGACGGCG   503
+
+    13   DS    545  CGGCACCGACCTCGTCAA   562      13/18
+                    || |  || | |||||||
+               629  CGtCctCGcCgTCGTCAA   646
+
+    13   DS    545  CGGCACCGACCTCGTCAA   562      12/18
+                    || | ||  |  ||||||
+               917  CGtCtCCctCgcCGTCAA   934
+
+    22   DA    911  GTCGCCGGCGGGGTCGGT   894      13/18
+                    |||   | || |||||||
+               566  GTCcttGaCGaGGTCGGT   549
+
+    19   IS    804  GAGATGCTCACCGAGGTC   821      12/18
+                    ||  | ||   |||||||
+               569  GAcgTcCTtgaCGAGGTC   552
+
+    21   DS    890  GTGGACCGACCCCGCCGG   907      12/18
+                     |    |||| |||||||
+               587  cTacgaCGACgCCGCCGG   604
+
+    15   DS    633  CTCGCCGTCGTCAACCGC   650      14/18
+                      ||||| | ||||||||
+               609  acCGCCGcCtTCAACCGC   626
+
+    19   IS    804  GAGATGCTCACCGAGGTC   821      10/18
+                    ||  |   |   ||||||
+               791  GAagTcgaCggtGAGGTC   774
+
+    21   DS    890  GTGGACCGACCCCGCCGG   907      11/18
+                       |  |  |||||||||
+               827  caaGttCcgCCCCGCCGG   844
+
+    21   DS    890  GTGGACCGACCCCGCCGG   907      11/18
+                       |  || | |||||||
+               854  cgaGctCGcCgCCGCCGG   871
+
+    21   IA    890  GTGGACCGACCCCGCCGG   907      10/18
+                         ||||   ||||||
+               921  agacgCCGAagtCGCCGG   904
+
+ ----------------------------------------------------------------
+ 
+  There are 151 repeats greater than  8 nt:
+ ----------------------------------------------------------------
+ DR Pos1 =    4   Pos2 =  145   Size =  8   Seq1 = CCACCCGC
+                                            Seq2 = CCACCCGC
+ DR Pos1 =    5   Pos2 =  122   Size = 10   Seq1 = CACCCGCCTC
+                                            Seq2 = CACCCGCCTC
+ DR Pos1 =    6   Pos2 =  249   Size =  9   Seq1 = ACCCGCCTC
+                                            Seq2 = ACCCGCCTC
+ DR Pos1 =    8   Pos2 =  572   Size =  8   Seq1 = CCGCCTCG
+                                            Seq2 = CCGCCTCG
+ DR Pos1 =   19   Pos2 =  532   Size =  9   Seq1 = ACTCCCTCC
+                                            Seq2 = ACTCCCTCC
+ DR Pos1 =   22   Pos2 =  672   Size =  9   Seq1 = CCCTCCGCC
+                                            Seq2 = CCCTCCGCC
+ DR Pos1 =   23   Pos2 =   47   Size = 10   Seq1 = CCTCCGCCGC
+                                            Seq2 = CCTCCGCCGC
+ DR Pos1 =   34   Pos2 =  760   Size = 11   Seq1 = ACGTCTCCGAG
+                                            Seq2 = ACGTCTCCGAG
+ DR Pos1 =   47   Pos2 =  673   Size =  8   Seq1 = CCTCCGCC
+                                            Seq2 = CCTCCGCC
+ DR Pos1 =   58   Pos2 =   73   Size =  9   Seq1 = CCCCCAAGT
+                                            Seq2 = CCCCCAAGT
+ DR Pos1 =   76   Pos2 =  694   Size =  8   Seq1 = CCAAGTGG
+                                            Seq2 = CCAAGTGG
+ DR Pos1 =   97   Pos2 =  226   Size =  9   Seq1 = TCGGCTCCG
+                                            Seq2 = TCGGCTCCG
+ DR Pos1 =   97   Pos2 =  451   Size =  8   Seq1 = TCGGCTCC
+                                            Seq2 = TCGGCTCC
+ DR Pos1 =  103   Pos2 =  364   Size =  8   Seq1 = CCGACCTC
+                                            Seq2 = CCGACCTC
+ DR Pos1 =  103   Pos2 =  550   Size =  8   Seq1 = CCGACCTC
+                                            Seq2 = CCGACCTC
+ DR Pos1 =  110   Pos2 =  665   Size =  8   Seq1 = CTTCGACC
+                                            Seq2 = CTTCGACC
+ DR Pos1 =  121   Pos2 =  874   Size =  8   Seq1 = TCACCCGC
+                                            Seq2 = TCACCCGC
+ DR Pos1 =  123   Pos2 =  249   Size = 10   Seq1 = ACCCGCCTCC
+                                            Seq2 = ACCCGCCTCC
+ DR Pos1 =  133   Pos2 =  355   Size =  8   Seq1 = CCGAGTAC
+                                            Seq2 = CCGAGTAC
+ DR Pos1 =  146   Pos2 =  875   Size = 10   Seq1 = CACCCGCACC
+                                            Seq2 = CACCCGCACC
+ DR Pos1 =  152   Pos2 =  707   Size =  8   Seq1 = CACCGAGG
+                                            Seq2 = CACCGAGG
+ DR Pos1 =  152   Pos2 =  812   Size =  8   Seq1 = CACCGAGG
+                                            Seq2 = CACCGAGG
+ DR Pos1 =  160   Pos2 =  421   Size =  8   Seq1 = CCAAGATC
+                                            Seq2 = CCAAGATC
+ DR Pos1 =  166   Pos2 =  325   Size = 11   Seq1 = TCCTCGGCGCC
+                                            Seq2 = TCCTCGGCGCC
+ DR Pos1 =  166   Pos2 =  448   Size =  8   Seq1 = TCCTCGGC
+                                            Seq2 = TCCTCGGC
+ DR Pos1 =  166   Pos2 =  541   Size =  8   Seq1 = TCCTCGGC
+                                            Seq2 = TCCTCGGC
+ IR Pos1 =  167   Pos2 =  191   Size =  8   Seq1 = CCTCGGCG
+                                            Seq2 = CGCCGAGG
+ DR Pos1 =  168   Pos2 =  654   Size =  9   Seq1 = CTCGGCGCC
+                                            Seq2 = CTCGGCGCC
+ IR Pos1 =  169   Pos2 =  204   Size =  8   Seq1 = TCGGCGCC
+                                            Seq2 = GGCGCCGA
+ IR Pos1 =  169   Pos2 =  657   Size =  8   Seq1 = TCGGCGCC
+                                            Seq2 = GGCGCCGA
+ DR Pos1 =  178   Pos2 =  595   Size =  9   Seq1 = ACGCCGCCG
+                                            Seq2 = ACGCCGCCG
+ DR Pos1 =  179   Pos2 =  332   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  179   Pos2 =  335   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  179   Pos2 =  338   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  179   Pos2 =  500   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  179   Pos2 =  860   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  179   Pos2 =  863   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  182   Pos2 =  206   Size =  8   Seq1 = CGCCGACA
+                                            Seq2 = CGCCGACA
+ DR Pos1 =  185   Pos2 =  371   Size =  8   Seq1 = CGACATCG
+                                            Seq2 = CGACATCG
+ DR Pos1 =  187   Pos2 =  688   Size =  8   Seq1 = ACATCGCC
+                                            Seq2 = ACATCGCC
+ DR Pos1 =  188   Pos2 =  845   Size =  9   Seq1 = CATCGCCGA
+                                            Seq2 = CATCGCCGA
+ IR Pos1 =  191   Pos2 =  326   Size =  8   Seq1 = CGCCGAGG
+                                            Seq2 = CCTCGGCG
+ DR Pos1 =  193   Pos2 =  814   Size = 11   Seq1 = CCGAGGTCTCC
+                                            Seq2 = CCGAGGTCTCC
+ PR Pos1 =  203   Pos2 =  203   Size =  8   Seq1 = CGGCGCCG
+                                            Seq2 = CGGCGCCG
+ DR Pos1 =  203   Pos2 =  329   Size =  8   Seq1 = CGGCGCCG
+                                            Seq2 = CGGCGCCG
+ IR Pos1 =  203   Pos2 =  328   Size =  9   Seq1 = CGGCGCCGA
+                                            Seq2 = TCGGCGCCG
+ DR Pos1 =  203   Pos2 =  656   Size = 10   Seq1 = CGGCGCCGAC
+                                            Seq2 = CGGCGCCGAC
+ IR Pos1 =  203   Pos2 =  655   Size =  9   Seq1 = CGGCGCCGA
+                                            Seq2 = TCGGCGCCG
+ DR Pos1 =  205   Pos2 =  487   Size =  8   Seq1 = GCGCCGAC
+                                            Seq2 = GCGCCGAC
+ DR Pos1 =  212   Pos2 =  740   Size =  8   Seq1 = CACCCTCG
+                                            Seq2 = CACCCTCG
+ IR Pos1 =  219   Pos2 =  766   Size = 11   Seq1 = GTCGAGCTCGG
+                                            Seq2 = CCGAGCTCGAC
+ PR Pos1 =  221   Pos2 =  221   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  221   Pos2 =  650   Size = 10   Seq1 = CGAGCTCGGC
+                                            Seq2 = CGAGCTCGGC
+ IR Pos1 =  221   Pos2 =  650   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  221   Pos2 =  767   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  221   Pos2 =  854   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ IR Pos1 =  221   Pos2 =  854   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  225   Pos2 =  450   Size =  9   Seq1 = CTCGGCTCC
+                                            Seq2 = CTCGGCTCC
+ DR Pos1 =  254   Pos2 =  536   Size = 11   Seq1 = CCTCCTCCTCG
+                                            Seq2 = CCTCCTCCTCG
+ DR Pos1 =  271   Pos2 =  580   Size =  9   Seq1 = TCCGCGCCT
+                                            Seq2 = TCCGCGCCT
+ DR Pos1 =  286   Pos2 =  346   Size =  8   Seq1 = CCCTCCAC
+                                            Seq2 = CCCTCCAC
+ PR Pos1 =  307   Pos2 =  307   Size = 10   Seq1 = TCGACGTCGA
+                                            Seq2 = TCGACGTCGA
+ IR Pos1 =  307   Pos2 =  564   Size =  8   Seq1 = TCGACGTC
+                                            Seq2 = GACGTCGA
+ DR Pos1 =  309   Pos2 =  564   Size = 10   Seq1 = GACGTCGACC
+                                            Seq2 = GACGTCGACC
+ DR Pos1 =  313   Pos2 =  667   Size = 12   Seq1 = TCGACCCCTCCG
+                                            Seq2 = TCGACCCCTCCG
+ DR Pos1 =  323   Pos2 =  629   Size =  8   Seq1 = CGTCCTCG
+                                            Seq2 = CGTCCTCG
+ DR Pos1 =  325   Pos2 =  448   Size =  8   Seq1 = TCCTCGGC
+                                            Seq2 = TCCTCGGC
+ DR Pos1 =  325   Pos2 =  541   Size =  8   Seq1 = TCCTCGGC
+                                            Seq2 = TCCTCGGC
+ DR Pos1 =  327   Pos2 =  654   Size = 10   Seq1 = CTCGGCGCCG
+                                            Seq2 = CTCGGCGCCG
+ IR Pos1 =  328   Pos2 =  656   Size =  9   Seq1 = TCGGCGCCG
+                                            Seq2 = CGGCGCCGA
+ PR Pos1 =  329   Pos2 =  329   Size =  8   Seq1 = CGGCGCCG
+                                            Seq2 = CGGCGCCG
+ DR Pos1 =  332   Pos2 =  335   Size = 13   Seq1 = CGCCGCCGCCGCC
+                                            Seq2 = CGCCGCCGCCGCC
+ DR Pos1 =  332   Pos2 =  500   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  332   Pos2 =  596   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  332   Pos2 =  860   Size = 11   Seq1 = CGCCGCCGCCG
+                                            Seq2 = CGCCGCCGCCG
+ DR Pos1 =  333   Pos2 =  430   Size =  8   Seq1 = GCCGCCGC
+                                            Seq2 = GCCGCCGC
+ DR Pos1 =  334   Pos2 =  610   Size =  8   Seq1 = CCGCCGCC
+                                            Seq2 = CCGCCGCC
+ DR Pos1 =  335   Pos2 =  500   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  335   Pos2 =  596   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  336   Pos2 =  430   Size =  8   Seq1 = GCCGCCGC
+                                            Seq2 = GCCGCCGC
+ DR Pos1 =  335   Pos2 =  860   Size = 11   Seq1 = CGCCGCCGCCG
+                                            Seq2 = CGCCGCCGCCG
+ DR Pos1 =  337   Pos2 =  610   Size =  8   Seq1 = CCGCCGCC
+                                            Seq2 = CCGCCGCC
+ DR Pos1 =  338   Pos2 =  500   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  338   Pos2 =  596   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  339   Pos2 =  430   Size =  8   Seq1 = GCCGCCGC
+                                            Seq2 = GCCGCCGC
+ DR Pos1 =  338   Pos2 =  860   Size = 10   Seq1 = CGCCGCCGCC
+                                            Seq2 = CGCCGCCGCC
+ DR Pos1 =  340   Pos2 =  610   Size =  8   Seq1 = CCGCCGCC
+                                            Seq2 = CCGCCGCC
+ DR Pos1 =  352   Pos2 =  706   Size =  8   Seq1 = ACACCGAG
+                                            Seq2 = ACACCGAG
+ DR Pos1 =  364   Pos2 =  550   Size =  9   Seq1 = CCGACCTCG
+                                            Seq2 = CCGACCTCG
+ DR Pos1 =  377   Pos2 =  704   Size =  8   Seq1 = CGACACCG
+                                            Seq2 = CGACACCG
+ DR Pos1 =  389   Pos2 =  527   Size =  8   Seq1 = CGGCGACT
+                                            Seq2 = CGGCGACT
+ DR Pos1 =  389   Pos2 =  905   Size = 11   Seq1 = CGGCGACTTCG
+                                            Seq2 = CGGCGACTTCG
+ DR Pos1 =  392   Pos2 =  662   Size =  9   Seq1 = CGACTTCGA
+                                            Seq2 = CGACTTCGA
+ DR Pos1 =  392   Pos2 =  785   Size = 10   Seq1 = CGACTTCGAG
+                                            Seq2 = CGACTTCGAG
+ DR Pos1 =  412   Pos2 =  457   Size =  8   Seq1 = CCACCATC
+                                            Seq2 = CCACCATC
+ DR Pos1 =  430   Pos2 =  861   Size =  8   Seq1 = GCCGCCGC
+                                            Seq2 = GCCGCCGC
+ DR Pos1 =  446   Pos2 =  494   Size =  8   Seq1 = CTTCCTCG
+                                            Seq2 = CTTCCTCG
+ DR Pos1 =  448   Pos2 =  541   Size =  8   Seq1 = TCCTCGGC
+                                            Seq2 = TCCTCGGC
+ DR Pos1 =  454   Pos2 =  736   Size =  8   Seq1 = GCTCCACC
+                                            Seq2 = GCTCCACC
+ DR Pos1 =  469   Pos2 =  775   Size =  9   Seq1 = ACCTCACCG
+                                            Seq2 = ACCTCACCG
+ DR Pos1 =  472   Pos2 =  607   Size =  9   Seq1 = TCACCGCCG
+                                            Seq2 = TCACCGCCG
+ DR Pos1 =  475   Pos2 =  598   Size =  8   Seq1 = CCGCCGGC
+                                            Seq2 = CCGCCGGC
+ DR Pos1 =  475   Pos2 =  838   Size =  8   Seq1 = CCGCCGGC
+                                            Seq2 = CCGCCGGC
+ DR Pos1 =  475   Pos2 =  865   Size =  9   Seq1 = CCGCCGGCC
+                                            Seq2 = CCGCCGGCC
+ DR Pos1 =  475   Pos2 =  901   Size =  8   Seq1 = CCGCCGGC
+                                            Seq2 = CCGCCGGC
+ IR Pos1 =  476   Pos2 =  794   Size =  8   Seq1 = CGCCGGCC
+                                            Seq2 = GGCCGGCG
+ DR Pos1 =  487   Pos2 =  658   Size = 11   Seq1 = GCGCCGACTTC
+                                            Seq2 = GCGCCGACTTC
+ DR Pos1 =  496   Pos2 =  631   Size =  9   Seq1 = TCCTCGCCG
+                                            Seq2 = TCCTCGCCG
+ IR Pos1 =  496   Pos2 =  797   Size =  9   Seq1 = TCCTCGCCG
+                                            Seq2 = CGGCGAGGA
+ DR Pos1 =  497   Pos2 =  923   Size =  8   Seq1 = CCTCGCCG
+                                            Seq2 = CCTCGCCG
+ DR Pos1 =  498   Pos2 =  858   Size = 10   Seq1 = CTCGCCGCCG
+                                            Seq2 = CTCGCCGCCG
+ DR Pos1 =  500   Pos2 =  596   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  500   Pos2 =  863   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  503   Pos2 =  635   Size =  8   Seq1 = CGCCGTCG
+                                            Seq2 = CGCCGTCG
+ DR Pos1 =  508   Pos2 =  847   Size =  9   Seq1 = TCGCCGACG
+                                            Seq2 = TCGCCGACG
+ DR Pos1 =  526   Pos2 =  904   Size =  9   Seq1 = CCGGCGACT
+                                            Seq2 = CCGGCGACT
+ IR Pos1 =  540   Pos2 =  709   Size =  8   Seq1 = CTCCTCGG
+                                            Seq2 = CCGAGGAG
+ DR Pos1 =  596   Pos2 =  860   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  596   Pos2 =  863   Size = 10   Seq1 = CGCCGCCGGC
+                                            Seq2 = CGCCGCCGGC
+ DR Pos1 =  598   Pos2 =  838   Size =  8   Seq1 = CCGCCGGC
+                                            Seq2 = CCGCCGGC
+ DR Pos1 =  598   Pos2 =  901   Size =  9   Seq1 = CCGCCGGCG
+                                            Seq2 = CCGCCGGCG
+ PR Pos1 =  599   Pos2 =  599   Size =  8   Seq1 = CGCCGGCG
+                                            Seq2 = CGCCGGCG
+ IR Pos1 =  599   Pos2 =  902   Size =  8   Seq1 = CGCCGGCG
+                                            Seq2 = CGCCGGCG
+ DR Pos1 =  610   Pos2 =  862   Size =  8   Seq1 = CCGCCGCC
+                                            Seq2 = CCGCCGCC
+ DR Pos1 =  613   Pos2 =  676   Size =  8   Seq1 = CCGCCTTC
+                                            Seq2 = CCGCCTTC
+ DR Pos1 =  619   Pos2 =  643   Size =  8   Seq1 = TCAACCGC
+                                            Seq2 = TCAACCGC
+ IR Pos1 =  631   Pos2 =  797   Size =  9   Seq1 = TCCTCGCCG
+                                            Seq2 = CGGCGAGGA
+ DR Pos1 =  632   Pos2 =  923   Size = 10   Seq1 = CCTCGCCGTC
+                                            Seq2 = CCTCGCCGTC
+ IR Pos1 =  649   Pos2 =  854   Size =  9   Seq1 = GCGAGCTCG
+                                            Seq2 = CGAGCTCGC
+ PR Pos1 =  650   Pos2 =  650   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  650   Pos2 =  767   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ IR Pos1 =  650   Pos2 =  766   Size =  9   Seq1 = CGAGCTCGG
+                                            Seq2 = CCGAGCTCG
+ DR Pos1 =  650   Pos2 =  854   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ PR Pos1 =  655   Pos2 =  655   Size = 10   Seq1 = TCGGCGCCGA
+                                            Seq2 = TCGGCGCCGA
+ DR Pos1 =  662   Pos2 =  785   Size =  9   Seq1 = CGACTTCGA
+                                            Seq2 = CGACTTCGA
+ DR Pos1 =  662   Pos2 =  908   Size =  8   Seq1 = CGACTTCG
+                                            Seq2 = CGACTTCG
+ DR Pos1 =  707   Pos2 =  812   Size =  8   Seq1 = CACCGAGG
+                                            Seq2 = CACCGAGG
+ DR Pos1 =  742   Pos2 =  922   Size =  8   Seq1 = CCCTCGCC
+                                            Seq2 = CCCTCGCC
+ PR Pos1 =  767   Pos2 =  767   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  767   Pos2 =  854   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ IR Pos1 =  767   Pos2 =  854   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  785   Pos2 =  908   Size =  8   Seq1 = CGACTTCG
+                                            Seq2 = CGACTTCG
+ IR Pos1 =  792   Pos2 =  866   Size = 10   Seq1 = GAGGCCGGCG
+                                            Seq2 = CGCCGGCCTC
+ DR Pos1 =  795   Pos2 =  903   Size =  8   Seq1 = GCCGGCGA
+                                            Seq2 = GCCGGCGA
+ IR Pos1 =  797   Pos2 =  923   Size =  8   Seq1 = CGGCGAGG
+                                            Seq2 = CCTCGCCG
+ DR Pos1 =  836   Pos2 =  899   Size = 10   Seq1 = CCCCGCCGGC
+                                            Seq2 = CCCCGCCGGC
+ DR Pos1 =  838   Pos2 =  865   Size =  8   Seq1 = CCGCCGGC
+                                            Seq2 = CCGCCGGC
+ PR Pos1 =  854   Pos2 =  854   Size =  8   Seq1 = CGAGCTCG
+                                            Seq2 = CGAGCTCG
+ DR Pos1 =  860   Pos2 =  863   Size =  8   Seq1 = CGCCGCCG
+                                            Seq2 = CGCCGCCG
+ DR Pos1 =  865   Pos2 =  901   Size =  8   Seq1 = CCGCCGGC
+                                            Seq2 = CCGCCGGC
+ PR Pos1 =  902   Pos2 =  902   Size =  8   Seq1 = CGCCGGCG
+                                            Seq2 = CGCCGGCG
+ ----------------------------------------------------------------
+ 
+ 
+          Sequence Patterns Screened (As Supplied By User)
+ ----------------------------------------------------------------
+                       None found
+ ----------------------------------------------------------------
+ 
+        22 oligonucleotides need to be synthesized
+ ----------------------------------------------------------------
+  1 TGACCACCCGCCTCGAGAACTCCCTCCGCCGCGACGTCTCCG  42
+  2 AGAACCACTTGGGGGGGAGGGACTTGGGGGAGCGGCGGAGGCCCTCGGAGACGTCGCGGC  60
+  3 TCCCCCCCAAGTGGTTCTACGACTCCGTCGGCTCCGACCTCTTCGACCAGATCACCCGCC  60
+  4 CCGAGGATCTTGGCCTCGGTGCGGGTGGGGTAGTACTCGGGGAGGCGGGTGATCTGGTCG  60
+  5 CGAGGCCAAGATCCTCGGCGCCCACGCCGCCGACATCGCCGAGGTCTCCGGCGCCGACAC  60
+  6 AGGAGGCGGGTCTTCTCGGAGGTGCCGGAGCCGAGCTCGACGAGGGTGTCGGCGCCGGAG  60
+  7 CGAGAAGACCCGCCTCCTCCTCGACGCCTTCCGCGCCTGCGGCACCCTCCACCGCTTCAT  60
+  8 GCGGCGGCGGCGCCGAGGACGGAGGGGTCGACGTCGAAGGGGATGAAGCGGTGGAGGGTG  60
+  9 CGCCGCCGCCGCCGCCCTCCACACCGAGTACCCCGACCTCGACATCGACACCGTCTGCGG  60
+ 10 CGGCCGATCTTGGGGATGGTGGGGAGGTCCTGCTCGAAGTCGCCGCAGACGGTGTCGATG  60
+ 11 CATCCCCAAGATCGGCCGCCGCATGGTCGTCTTCCTCGGCTCCACCATCGGCAACCTCAC  60
+ 12 CGTCGGCGACGGCGGCGAGGAAGTCGGCGCGGGGGCCGGCGGTGAGGTTGCCGATGGTGG  60
+ 13 CGCCGTCGCCGACGCCATGCAGCCCGGCGACTCCCTCCTCCTCGGCACCGACCTCGTCAA  60
+ 14 CCGGCGGCGTCGTCGTAGGCGCGGACGAGGCGGTCGACGTCCTTGACGAGGTCGGTGCCG  60
+ 15 GACGACGCCGCCGGCGTCACCGCCGCCTTCAACCGCAACGTCCTCGCCGTCGTCAACCGC  60
+ 16 GCGATGTGGGCGAAGGCGGAGGGGTCGAAGTCGGCGCCGAGCTCGCGGTTGACGACGGCG  60
+ 17 CCTTCGCCCACATCGCCAAGTGGAACGACACCGAGGAGCGCATCGAGATGTGGCTCCGCT  60
+ 18 TGAGGTCGAGCTCGGAGACGTGGACGCGCTGGGCGAGGGTGGAGCGGAGCCACATCTCGA  60
+ 19 GTCTCCGAGCTCGACCTCACCGTCGACTTCGAGGCCGGCGAGGAGATGCTCACCGAGGTC  60
+ 20 GCGAGCTCGTCGGCGATGCCGGCGGGGCGGAACTTGCAGGAGACCTCGGTGAGCATCTCC  60
+ 21 CGCCGACGAGCTCGCCGCCGCCGGCCTCACCCGCACCCACTGGTGGACCGACCCCGCCGG  60
+ 22 CTACTTGACGGCGAGGGAGACGCCGAAGTCGCCGGCGGGGTCGGT  45
+ 
+                          FINAL SUMMARY FOR   1 SOLUTION   
+--------------------------------------------------------------------------------
+  #    Tm   Len  |    Score   TmRange  Short    Long   #Olig  #Repeat #Misprime
+ 
+  1    65    60  |   86.287       4.9      12      60      22     151      27
+ 
+--------------------------------------------------------------------------------
+|               HPC @ NIH -- Center for Information Technology                 |
+|                             https://hpc.nih.gov                              |
+|   National Institutes of Health, Department of Health and Human Services     |
+|                                                                              |
+|         DNAWorks Web Site: https://hpcwebapps.cit.nih.gov/dnaworks           |
+--------------------------------------------------------------------------------
+

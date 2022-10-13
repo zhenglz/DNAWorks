@@ -1,0 +1,18 @@
+title "OligDesignTest"
+email "astrozheng@gmail.com"
+timelimit 3600
+melting low 62 tolerance  
+length 60 
+frequency threshold 10 
+concentration oligo 1E-7 sodium 0.05 magnesium 0.002
+solutions 1
+
+nucleotide gapfix
+  cgtgcgctct cctgttccga ccctgccgct taccggatac ctgtccgcct 
+  ttctcccttc gggaagcgtg gcgctttctc aaagctcacg ctgtaggtat 
+  ctcagttcgg tgtaggtcgt tcgctccaag ctgggctgtg tgcacgaacc 
+  ccccgttcag cccgaccgct gcgccttatc cggtaactat cgtcttgagt 
+  ccaacccggt aagacacgac ttatcgccac tggcagcagc cactggtaac 
+  aggattagca gagcgaggta tgtaggcggt gctacagagt tcttgaagtg 
+  gtggcctaac tacggctaca ctagaagaac agtatttggt atctgcgctc
+//
